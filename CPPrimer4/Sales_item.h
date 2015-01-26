@@ -54,7 +54,7 @@ public:
 
 public:
 	// operations on Sales_item objects
-	double avg_price() const;
+	inline double avg_price() const;
 	bool same_isbn(const Sales_item &rhs) const
 	{
 		return isbn == rhs.isbn;
@@ -62,6 +62,7 @@ public:
 	// default constructor needed to initialize members of built-in type
 	Sales_item() : units_sold(0), revenue(0.0) { }
 	// private members as before
+
 private:
 	std::string isbn;
 	unsigned units_sold;
