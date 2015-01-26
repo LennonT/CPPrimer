@@ -1,0 +1,13 @@
+This is a line.
+This is another line.
+
+list< deque<int> >
+
+
+list<int> books;
+list<int>::iterator iter = books.end();
+while(iter != books.begin()) {
+	cout<<*(--iter)<<endl;
+} 
+
+
