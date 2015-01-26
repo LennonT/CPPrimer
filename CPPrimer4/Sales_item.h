@@ -41,9 +41,9 @@ class Sales_item {
 	// other members as before
 public:
 	// added constructors to initialize from a string or an istream
-	Sales_item(const std::string &book) :
+	explicit Sales_item(const std::string &book) :
 		isbn(book), units_sold(0), revenue(0.0) { }
-	Sales_item(std::istream &is) { is >> *this; }
+	explicit Sales_item(std::istream &is) { is >> *this; }
 	friend std::istream& operator>>(std::istream&, Sales_item&);
 	friend std::ostream& operator<<(std::ostream&, const Sales_item&);
 public:

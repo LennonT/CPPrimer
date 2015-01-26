@@ -10,6 +10,9 @@
 #include <sstream>
 
 #include "Sales_item.h"
+#include "Person.h"
+#include "Screen.h"
+#include "ForTest.h"
 
 #include <string>
 #include <vector>
