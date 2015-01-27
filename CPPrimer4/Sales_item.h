@@ -41,9 +41,9 @@ class Sales_item {
 	// other members as before
 public:
 	// added constructors to initialize from a string or an istream
-	explicit Sales_item(const std::string &book) :
+	Sales_item(const std::string &book) :
 		isbn(book), units_sold(0), revenue(0.0) { }
-	explicit Sales_item(std::istream &is) { is >> *this; }
+	Sales_item(std::istream &is) { is >> *this; }
 	friend std::istream& operator>>(std::istream&, Sales_item&);
 	friend std::ostream& operator<<(std::ostream&, const Sales_item&);
 public:
@@ -54,7 +54,7 @@ public:
 
 public:
 	// operations on Sales_item objects
-	inline double avg_price() const;
+	double avg_price() const;
 	bool same_isbn(const Sales_item &rhs) const
 	{
 		return isbn == rhs.isbn;
@@ -62,6 +62,7 @@ public:
 	// default constructor needed to initialize members of built-in type
 	Sales_item() : units_sold(0), revenue(0.0) { }
 	// private members as before
+	~Sales_item(){}
 
 private:
 	std::string isbn;
