@@ -142,6 +142,7 @@ int main(int argc, char* argv[]) {
 	//Screen myScreen((string)"123");
 	//myScreen.move(4, 0).set('#').display(cout);
 
+
 	Test t;
 	cout << t.sval << endl;
 	cout << t.i << endl;

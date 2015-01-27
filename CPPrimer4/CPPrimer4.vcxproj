@@ -84,7 +84,9 @@
     <ClCompile Include="Sales_item.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Folder.h" />
     <ClInclude Include="ForTest.h" />
+    <ClInclude Include="Message.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Sales_item.h" />
     <ClInclude Include="Screen.h" />
