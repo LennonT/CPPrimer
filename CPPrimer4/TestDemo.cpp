@@ -39,7 +39,7 @@ using std::pair;
 
 int main(int argc, char* argv[]) {
 
-#pragma region used
+	#pragma region used
 	/*int i, j;
 		cin >> i >> j;
 		cout << (i > j ? i : j) << " is bigger..." << endl;
@@ -92,7 +92,7 @@ int main(int argc, char* argv[]) {
 	//	examplefile << "This is another line.\n";
 	//	examplefile.close();
 	//}
-#pragma endregion used
+
 
 	//list<string> lists;
 	//string temp;
@@ -138,11 +138,13 @@ int main(int argc, char* argv[]) {
 	//	cout << *ite << endl;
 	//}
 
-	map<string, string> secretWords;
+	#pragma endregion used
 
-	std::multimap
-
-
+	int i, j;
+	i = 2;
+	j = 3;
+	cout << i << j;
+	cout << endl;
 
 
 
