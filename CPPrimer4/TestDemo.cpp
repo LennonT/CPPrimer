@@ -93,7 +93,6 @@ int main(int argc, char* argv[]) {
 	//	examplefile.close();
 	//}
 
-
 	//list<string> lists;
 	//string temp;
 	//cout << "enter some strings..." << endl;
@@ -138,16 +137,18 @@ int main(int argc, char* argv[]) {
 	//	cout << *ite << endl;
 	//}
 
-	#pragma endregion used
+#pragma endregion used
+	
+	//Screen myScreen((string)"123");
+	//myScreen.move(4, 0).set('#').display(cout);
 
-	int i, j;
-	i = 2;
-	j = 3;
-	cout << i << j;
+
+	Test t;
+	cout << t.sval << endl;
+	cout << t.i << endl;
+	cout << ::j;
+
 	cout << endl;
-
-
-
 	system("pause");
 	return 0;
 }
