@@ -37,6 +37,7 @@ using std::pair;
 
 
 
+
 int main(int argc, char* argv[]) {
 
 	#pragma region used
@@ -143,10 +144,19 @@ int main(int argc, char* argv[]) {
 	//myScreen.move(4, 0).set('#').display(cout);
 
 
-	Test t;
-	cout << t.sval << endl;
-	cout << t.i << endl;
-	cout << ::j;
+// 	Test t;
+// 	cout << t.sval << endl;
+// 	cout << t.i << endl;
+// 	cout << ::j;
+
+
+	vector<Item_base> bases;
+	vector<Bulk_item> bulks;
+
+
+
+	
+	
 
 	cout << endl;
 	system("pause");

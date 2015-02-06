@@ -13,6 +13,8 @@
 #include "Person.h"
 #include "Screen.h"
 #include "ForTest.h"
+#include "Item_base.h"
+#include "Bulk_item.h"
 
 #include <string>
 #include <vector>
